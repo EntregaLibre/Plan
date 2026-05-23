@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estrategia de Marketing - EntregaLibre.com</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome para Iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts - Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Configuración de Colores de Marca y Fuentes -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            dark: '#0B132B',       /* Azul Oscuro Primario */
+                            navy: '#1C2541',       /* Azul Profundo Secundario */
+                            yellow: '#E5A93B',     /* Amarillo Mostaza */
+                            yellowLight: '#FCE7C4',/* Amarillo Claro */
+                            white: '#FFFFFF',      /* Blanco */
+                            gray: '#F8FAFC'        /* Gris ultra-claro */
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #0B132B;
+        }
+        /* Personalización de barra de scroll */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #0B132B;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #E5A93B;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body class="text-slate-100 min-h-screen flex flex-col antialiased">
+
+    <!-- HEADER -->
+    <header class="sticky top-0 z-50 bg-brand-dark/95 backdrop-blur-md border-b border-brand-yellow/20 transition-all duration-300">
+        <div class="max-w-md mx-auto px-4 py-3 flex items-center justify-between">
+            <div class="flex items-center gap-3">
+                <div class="relative w-12 h-12 rounded-xl bg-white/5 flex items-center justify-center p-1.5 border border-brand-yellow/30 overflow-hidden shadow-inner">
+                    <img 
+                        src="https://media.entregalibre.com/public/entregalibre-products/16b485c2-159a-4594-9a99-25d1b42b073b.png" 
+                        alt="EntregaLibre.com Logo" 
+                        class="object-contain w-full h-full"
+                        onerror="this.onerror=null; this.src='https://placehold.co/120x120/0B132B/E5A93B?text=EL'"
+                    >
+                </div>
+                <div>
+                    <h1 class="text-md font-extrabold tracking-tight text-brand-white">
+                        Entrega<span class="text-brand-yellow">Libre</span>.com
+                    </h1>
+                    <p class="text-[10px] text-brand-yellow font-semibold tracking-widest uppercase">Plan de Marketing de Guerrilla</p>
+                </div>
+            </div>
+            <div class="bg-brand-yellow/10 px-2.5 py-1 rounded-full border border-brand-yellow/30 text-[10px] text-brand-yellow font-semibold">
+                $0 USD Ad Spend
+            </div>
+        </div>
+    </header>
+
+    <!-- MAIN CONTENT (Optimizado para visualización móvil vertical) -->
+    <main class="flex-grow max-w-md w-full mx-auto px-4 py-6 space-y-8 pb-24">
+
+        <!-- INTROTACTICA -->
+        <section class="relative bg-gradient-to-br from-brand-navy to-brand-dark rounded-3xl p-6 border border-brand-yellow/10 overflow-hidden shadow-2xl">
+            <div class="absolute -right-12 -top-12 w-32 h-32 bg-brand-yellow/10 rounded-full blur-2xl"></div>
+            <span class="text-[10px] bg-brand-yellow text-brand-dark px-3 py-1 rounded-full font-bold uppercase tracking-wider">Estrategia Orgánica 2026</span>
+            <h2 class="text-2xl font-extrabold mt-3 leading-tight text-white">
+                Fórmula de <span class="text-brand-yellow">Atracción Masiva</span> & Tráfico Orgánico
+            </h2>
+            <p class="text-xs text-slate-300 mt-2 leading-relaxed">
+                Cómo inundaremos EntregaLibre.com de compradores activos en Venezuela sin gastar un solo dólar en publicidad paga, apalancando la automatización que creamos en la web.
+            </p>
+        </section>
+
+        <!-- MARKETING FUNNEL & OBJECTIONS -->
+        <section class="space-y-3">
+            <h3 class="text-sm font-bold text-brand-yellow uppercase tracking-wider px-1">Rompiendo Objeciones en Venezuela</h3>
+            <p class="text-[11px] text-slate-400 px-1">La confianza se construye destruyendo miedos con comunicación directa:</p>
+            
+            <div class="grid grid-cols-1 gap-3">
+                <div class="bg-brand-navy/40 p-4 rounded-2xl border border-white/5 space-y-2">
+                    <div class="flex items-center gap-2">
+                        <span class="p-1.5 rounded-lg bg-emerald-500/10 text-emerald-400 text-xs"><i class="fa-solid fa-shield-heart"></i></span>
+                        <h4 class="text-xs font-bold text-white uppercase tracking-wider">Miedo #1: ¿Me van a estafar?</h4>
+                    </div>
+                    <p class="text-xs text-slate-400 leading-relaxed">
+                        <strong>Nuestra Respuesta:</strong> No pedimos transferencias informales por WhatsApp. Todo el pago se concilia automáticamente en el checkout con plataformas formales de débito o Pago Móvil.
+                    </p>
+                </div>
+
+                <div class="bg-brand-navy/40 p-4 rounded-2xl border border-white/5 space-y-2">
+                    <div class="flex items-center gap-2">
+                        <span class="p-1.5 rounded-lg bg-emerald-500/10 text-emerald-400 text-xs"><i class="fa-solid fa-credit-card"></i></span>
+                        <h4 class="text-xs font-bold text-white uppercase tracking-wider">Miedo #2: No tengo dólares ni Zelle</h4>
+                    </div>
+                    <p class="text-xs text-slate-400 leading-relaxed">
+                        <strong>Nuestra Respuesta:</strong> Todo el catálogo masivo se muestra y se liquida 100% en Bolívares. No requieres tarjetas internacionales ni dolores de cabeza de cambio de divisas.
+                    </p>
+                </div>
+
+                <div class="bg-brand-navy/40 p-4 rounded-2xl border border-white/5 space-y-2">
+                    <div class="flex items-center gap-2">
+                        <span class="p-1.5 rounded-lg bg-emerald-500/10 text-emerald-400 text-xs"><i class="fa-solid fa-truck-fast"></i></span>
+                        <h4 class="text-xs font-bold text-white uppercase tracking-wider">Miedo #3: La espera infinita</h4>
+                    </div>
+                    <p class="text-xs text-slate-400 leading-relaxed">
+                        <strong>Nuestra Respuesta:</strong> Retiro garantizado en tu oficina de Zoom preferida de confianza en un rango estricto de menos de 10 días desde el pago.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- INTERACTIVE TIKTOK GENERATOR -->
+        <section class="bg-brand-navy/30 rounded-3xl p-5 border border-brand-yellow/20 space-y-4">
+            <div>
+                <span class="text-[9px] bg-brand-yellow/20 text-brand-yellow px-2 py-0.5 rounded-md font-bold uppercase">Marketing de Contenidos Orgánico</span>
+                <h3 class="text-md font-bold text-white mt-1 flex items-center gap-2">
+                    <i class="fa-brands fa-tiktok text-brand-yellow"></i> Ejemplo de Guiones Virales
+                </h3>
+                <p class="text-[11px] text-slate-400">Selecciona el dolor del comprador para obtener el concepto de video orgánico ideal para TikTok/Reels:</p>
+            </div>
+
+            <div class="grid grid-cols-3 gap-1">
+                <button onclick="selectScript('miedo')" id="btn-miedo" class="script-btn bg-brand-yellow text-brand-dark font-bold text-[10px] py-1.5 px-1 rounded-lg transition duration-200 text-center">
+                    Miedo a Estafa
+                </button>
+                <button onclick="selectScript('rapidez')" id="btn-rapidez" class="script-btn bg-brand-navy border border-white/10 text-slate-300 font-bold text-[10px] py-1.5 px-1 rounded-lg transition duration-200 text-center">
+                    Velocidad
+                </button>
+                <button onclick="selectScript('comodidad')" id="btn-comodidad" class="script-btn bg-brand-navy border border-white/10 text-slate-300 font-bold text-[10px] py-1.5 px-1 rounded-lg transition duration-200 text-center">
+                    Cero Trámites
+                </button>
+            </div>
+
+            <div class="bg-brand-dark/90 p-4 rounded-2xl border border-white/5 space-y-3">
+                <div class="flex items-center justify-between">
+                    <span id="script-title" class="text-xs font-bold text-brand-yellow">Gancho: ¿Estafa o Realidad?</span>
+                    <span class="text-[9px] bg-brand-yellow/10 text-brand-yellow px-2 py-0.5 rounded-full font-mono">Formato Vertical</span>
+                </div>
+                <p id="script-desc" class="text-[11px] text-slate-400 italic">Ataca de frente la desconfianza del e-commerce tradicional.</p>
+                <div class="border-t border-white/10 pt-2">
+                    <p id="script-text" class="text-xs text-slate-200 leading-relaxed font-mono">
+                        <strong>Visual:</strong> Te grabas abriendo la página en tu tlf, muestras el monto en Bs. Luego haces corte rápido a ti retirando la caja sellada en la taquilla de Zoom.<br><br><strong>Audio:</strong> 'Todo el mundo me decía que era imposible comprar esto directo en bolívares y sin casillero... que de seguro me iban a estafar. Bueno, aquí estoy en el Zoom de mi zona retirando mi caja exactamente 9 días después de darle clic a comprar en EntregaLibre.com. Sin intermediarios, sin sorpresas en la tasa.'
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- EL MOTOR DE CRECIMIENTO: AFILIADOS & REFERIDOS -->
+        <section class="space-y-4">
+            <div class="space-y-1">
+                <h3 class="text-sm font-bold text-brand-yellow uppercase tracking-wider px-1">El Motor del Crecimiento</h3>
+                <p class="text-xs text-slate-400 px-1">Apalancamos la adquisición de clientes en descuentos y comisiones automatizadas sobre ventas ya liquidadas:</p>
+            </div>
+
+            <!-- Mecánica 1 -->
+            <div class="bg-brand-navy/60 p-4 rounded-2xl border border-white/5 space-y-2">
+                <div class="flex items-center justify-between">
+                    <span class="text-xs font-extrabold text-white">1. Células de Micro-Influencers</span>
+                    <span class="text-[9px] bg-brand-yellow/10 text-brand-yellow px-2 py-0.5 rounded-full">Tráfico Masivo</span>
+                </div>
+                <p class="text-xs text-slate-400 leading-relaxed">
+                    Asignamos códigos únicos a influencers de nicho (5k - 20k seguidores). Su público obtiene un descuento exclusivo y el influencer gana una comisión en bolívares directo a su saldo en la plataforma.
+                </p>
+                <div class="bg-brand-dark/40 p-2.5 rounded-xl border border-white/5 text-[11px] text-slate-400">
+                    <span class="text-brand-yellow font-bold"><i class="fa-solid fa-lock mr-1"></i> Control de Retiro:</span> Las comisiones solo pueden ser retiradas a cuentas bancarias que coincidan exactamente con la Cédula/RIF y Nombre del titular registrado. Cero pagos a terceros.
+                </div>
+            </div>
+
+            <!-- Mecánica 2 -->
+            <div class="bg-brand-navy/60 p-4 rounded-2xl border border-white/5 space-y-2">
+                <div class="flex items-center justify-between">
+                    <span class="text-xs font-extrabold text-white">2. Red de Referidos de Usuario</span>
+                    <span class="text-[9px] bg-brand-yellow/10 text-brand-yellow px-2 py-0.5 rounded-full">Viralidad Orgánica</span>
+                </div>
+                <p class="text-xs text-slate-400 leading-relaxed">
+                    Cada usuario registrado recibe su propio código. Al compartirlo con amigos, estos reciben descuento en su primera compra. Cuando compren, el usuario dueño del código original gana créditos automáticos para usar dentro de la web.
+                </p>
+            </div>
+
+            <!-- Mecánica 3 -->
+            <div class="bg-brand-navy/60 p-4 rounded-2xl border border-white/5 space-y-2">
+                <div class="flex items-center justify-between">
+                    <span class="text-xs font-extrabold text-white">3. El Loop de Prueba Social (Unboxing)</span>
+                    <span class="text-[9px] bg-brand-yellow/10 text-brand-yellow px-2 py-0.5 rounded-full">Conversión Brutal</span>
+                </div>
+                <p class="text-xs text-slate-400 leading-relaxed">
+                    Los clientes suben su video de unboxing abriendo su paquete al lado de la taquilla de Zoom y etiquetan a la marca. Pegan el enlace del video en su perfil de EntregaLibre, lo validamos **manualmente** en el panel de control administrativo y, al aprobarlo, el sistema les emite un cupón especial.
+                </p>
+            </div>
+        </section>
+
+        <!-- CALCULADORA INTERACTIVA DE METRICAS -->
+        <section class="bg-brand-navy/30 rounded-3xl p-5 border border-brand-yellow/20 space-y-4">
+            <div>
+                <h3 class="text-md font-bold text-white flex items-center gap-2">
+                    <i class="fa-solid fa-chart-line text-brand-yellow"></i> Simulador de Ventas & Retorno (ROI)
+                </h3>
+                <p class="text-[11px] text-slate-400">Demostración de la viabilidad financiera de comisionar afiliados en vez de pagar Ads:</p>
+            </div>
+
+            <div class="space-y-3">
+                <div class="grid grid-cols-2 gap-2">
+                    <div>
+                        <label class="text-[10px] font-bold uppercase tracking-wider text-slate-300 block mb-1">Valor Compra Promedio ($)</label>
+                        <div class="relative">
+                            <span class="absolute left-3 top-2 text-xs text-slate-500">$</span>
+                            <input type="number" id="val-order" class="w-full bg-brand-dark border border-brand-yellow/30 rounded-xl py-1.5 pl-7 pr-3 text-xs text-white focus:outline-none focus:border-brand-yellow" value="80">
+                        </div>
+                    </div>
+                    <div>
+                        <label class="text-[10px] font-bold uppercase tracking-wider text-slate-300 block mb-1">N° Influencers Aliados</label>
+                        <input type="number" id="num-inf" class="w-full bg-brand-dark border border-brand-yellow/30 rounded-xl py-1.5 px-3 text-xs text-white focus:outline-none focus:border-brand-yellow" value="12">
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-2 gap-2">
+                    <div>
+                        <label class="text-[10px] font-bold uppercase tracking-wider text-slate-300 block mb-1">Ventas/Mes por Inf.</label>
+                        <input type="number" id="sales-inf" class="w-full bg-brand-dark border border-brand-yellow/30 rounded-xl py-1.5 px-3 text-xs text-white focus:outline-none focus:border-brand-yellow" value="15">
+                    </div>
+                    <div>
+                        <label class="text-[10px] font-bold uppercase tracking-wider text-slate-300 block mb-1">Comisión Afiliado (%)</label>
+                        <div class="relative">
+                            <input type="number" id="com-inf" class="w-full bg-brand-dark border border-brand-yellow/30 rounded-xl py-1.5 pl-3 pr-6 text-xs text-white focus:outline-none focus:border-brand-yellow" value="8">
+                            <span class="absolute right-3 top-2 text-xs text-slate-500">%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <button onclick="calculateRoi()" class="w-full bg-brand-yellow hover:bg-brand-yellow/90 text-brand-dark font-extrabold text-xs py-2.5 rounded-xl transition duration-200 shadow-lg shadow-brand-yellow/10">
+                    <i class="fa-solid fa-arrows-rotate mr-1"></i> Simular Crecimiento Financiero
+                </button>
+
+                <!-- Resultados del Simulador -->
+                <div class="bg-brand-dark/70 rounded-2xl p-4 border border-white/5 space-y-2 text-xs">
+                    <div class="flex justify-between items-center">
+                        <span class="text-slate-400">Total Transacciones / Mes:</span>
+                        <span class="font-bold text-white" id="out-sales">180 pedidos</span>
+                    </div>
+                    <div class="flex justify-between items-center">
+                        <span class="text-slate-400">Volumen de Venta Bruto:</span>
+                        <span class="font-bold text-white" id="out-gross">$14,400.00</span>
+                    </div>
+                    <div class="flex justify-between items-center">
+                        <span class="text-slate-400">Comisiones Pagadas (CAC $0):</span>
+                        <span class="font-bold text-brand-yellow" id="out-com">$1,152.00</span>
+                    </div>
+                    <div class="border-t border-white/10 my-1 pt-1.5 flex justify-between items-center text-xs">
+                        <span class="text-emerald-400 font-bold">Volumen Neto Retenido en Caja:</span>
+                        <span class="font-bold text-emerald-400" id="out-net">$13,248.00</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- REQUERIMIENTOS EXCLUSIVOS PARA LOS SOCIOS (BACKEND DE MARKETING) -->
+        <section class="space-y-4">
+            <h3 class="text-sm font-bold text-brand-yellow uppercase tracking-wider px-1">Soporte Técnico de la Estrategia</h3>
+            <p class="text-xs text-slate-400 px-1">Para que el marketing corra solo, necesitamos activar estos tres módulos en la plataforma actual:</p>
+
+            <div class="space-y-2.5">
+                <div class="bg-brand-navy border border-brand-yellow/15 p-4 rounded-2xl flex gap-3">
+                    <div class="text-brand-yellow shrink-0 mt-0.5"><i class="fa-solid fa-code-branch"></i></div>
+                    <div>
+                        <h4 class="text-xs font-bold text-white">1. Dashboard & Wallet de Influencers</h4>
+                        <p class="text-[11px] text-slate-400 mt-1">
+                            Sección donde cada creador vea clics, ventas logradas con su cupón y su saldo actual acumulado. Botón de cobro con match estricto de identidad bancaria y de usuario.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="bg-brand-navy border border-brand-yellow/15 p-4 rounded-2xl flex gap-3">
+                    <div class="text-brand-yellow shrink-0 mt-0.5"><i class="fa-solid fa-users"></i></div>
+                    <div>
+                        <h4 class="text-xs font-bold text-white">2. Sistema de Enlaces de Referidos</h4>
+                        <p class="text-[11px] text-slate-400 mt-1">
+                            Asignación automática de un enlace/código de referido a todo nuevo usuario registrado. Dashboard simple en el perfil para ver cuántas personas han comprado con su enlace y su saldo de créditos.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="bg-brand-navy border border-brand-yellow/15 p-4 rounded-2xl flex gap-3">
+                    <div class="text-brand-yellow shrink-0 mt-0.5"><i class="fa-solid fa-circle-check"></i></div>
+                    <div>
+                        <h4 class="text-xs font-bold text-white">3. Panel de Validación de Unboxing (Manual)</h4>
+                        <p class="text-[11px] text-slate-400 mt-1">
+                            Módulo de administración donde visualicemos la lista de links de TikTok/Instagram subidos por los usuarios para verificar manualmente su autenticidad y, con un solo clic, autorizar el cupón de descuento automático a su correo.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="mt-auto bg-brand-dark border-t border-white/10 py-6">
+        <div class="max-w-md mx-auto px-4 text-center space-y-2">
+            <div class="flex items-center justify-center gap-2 text-[10px] text-brand-yellow font-bold uppercase tracking-widest">
+                <span>Estrategia de Ventas</span>
+                <span class="w-1.5 h-1.5 rounded-full bg-brand-yellow"></span>
+                <span>EntregaLibre.com</span>
+            </div>
+            <p class="text-xs text-slate-400">
+                Plan desarrollado por <span class="text-brand-yellow font-semibold">Fernando Victorino</span>
+            </p>
+            <p class="text-[11px] text-slate-500 font-mono">
+                23 de mayo de 2026
+            </p>
+        </div>
+    </footer>
+
+    <!-- SCRIPTS DE INTERACCIÓN -->
+    <script>
+        const scripts = {
+            miedo: {
+                title: "Gancho: ¿Estafa o Realidad?",
+                desc: "Ataca de frente el miedo más común en Venezuela.",
+                text: "<strong>Visual:</strong> Te grabas abriendo la página en tu tlf, muestras el monto en Bs. Luego haces corte rápido a ti retirando la caja sellada en la taquilla de Zoom.<br><br><strong>Audio:</strong> 'Todo el mundo me decía que era imposible comprar esto directo en bolívares y sin casillero... que de seguro me iban a estafar. Bueno, aquí estoy en el Zoom de mi zona retirando mi caja exactamente 9 días después de darle clic a comprar en EntregaLibre.com. Sin intermediarios, sin sorpresas en la tasa.'"
+            },
+            rapidez: {
+                title: "Gancho: El Reto de los 10 días",
+                desc: "Posiciona la velocidad real de entrega del paquete.",
+                text: "<strong>Visual:</strong> Grábate con un cronómetro en el teléfono. Muestra tu compra en la web de EntregaLibre con un clic, y luego corta al día 9 abriendo tu caja en Zoom.<br><br><strong>Audio:</strong> '¿Estás cansado de esperar un mes o dos meses para que te llegue algo de afuera? Pusimos a prueba el reto de EntregaLibre.com. Compramos el lunes pagando al instante con Pago Móvil, y llegó a mi Zoom hoy jueves de la semana siguiente. Menos de 10 días reales. Haz la prueba y pon tú el cronómetro.'"
+            },
+            comodidad: {
+                title: "Gancho: Adiós al Casillero y Tarjetas",
+                desc: "Destaca la eliminación de barreras burocráticas.",
+                text: "<strong>Visual:</strong> Muestra frustración con una tarjeta de crédito rechazada en una pantalla, o una lista gigante de tarifas de casilleros de envío.<br><br><strong>Audio:</strong> '¿No tienes tarjeta internacional? ¿Te da fastidio abrir un casillero en Miami y no saber cuánto te van a cobrar de envío? Olvídate de eso. En EntregaLibre.com solo metes lo que quieras al carrito, pagas en bolívares como compras cualquier refresco, y retiras en el Zoom que elijas. Así de simple.'"
+            }
+        };
+
+        function selectScript(type) {
+            // Cambiar estados visuales de los botones
+            const buttons = document.querySelectorAll('.script-btn');
+            buttons.forEach(btn => {
+                btn.classList.remove('bg-brand-yellow', 'text-brand-dark');
+                btn.classList.add('bg-brand-navy', 'text-slate-300', 'border', 'border-white/10');
+            });
+
+            const activeBtn = document.getElementById(`btn-${type}`);
+            activeBtn.classList.remove('bg-brand-navy', 'text-slate-300', 'border', 'border-white/10');
+            activeBtn.classList.add('bg-brand-yellow', 'text-brand-dark');
+
+            // Actualizar contenido
+            document.getElementById('script-title').textContent = scripts[type].title;
+            document.getElementById('script-desc').textContent = scripts[type].desc;
+            document.getElementById('script-text').innerHTML = scripts[type].text;
+        }
+
+        function calculateRoi() {
+            const avgVal = parseFloat(document.getElementById('val-order').value) || 0;
+            const infCount = parseInt(document.getElementById('num-inf').value) || 0;
+            const salesPerInf = parseInt(document.getElementById('sales-inf').value) || 0;
+            const comRate = parseFloat(document.getElementById('com-inf').value) || 0;
+
+            const totalSales = infCount * salesPerInf;
+            const grossRev = totalSales * avgVal;
+            const totalCom = grossRev * (comRate / 100);
+            const netRev = grossRev - totalCom;
+
+            document.getElementById('out-sales').textContent = totalSales + " pedidos";
+            document.getElementById('out-gross').textContent = "$" + grossRev.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+            document.getElementById('out-com').textContent = "$" + totalCom.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+            document.getElementById('out-net').textContent = "$" + netRev.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+        }
+
+        window.onload = function() {
+            calculateRoi();
+        }
+    </script>
+</body>
+</html>
